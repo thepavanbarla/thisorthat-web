@@ -7,3 +7,6 @@ This is the web version of the This or That app, including static pages for the 
 Links to other This or That repos: 
 - [This or That Mobile App](https://github.com/thepavanbarla/thisorthat-app)
 - [This or That Backend APIs](https://github.com/thepavanbarla/thisorthat-services)
+
+### Note
+None of the keys/secrets you see in these repos are valid anymore. 
