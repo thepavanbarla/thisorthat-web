@@ -1,0 +1,92 @@
+.Container {
+    background-color: #FAFAFA;
+    width: 100%; 
+    min-height: 100vh;
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 64px;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    box-shadow: 0 2px 8px #f0f1f2;
+}
+
+.HeaderContent {
+    max-width: 1200px;
+    padding: 22px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    height: 100%;
+}
+
+.HeaderButton {
+    padding: 8px 10px;
+    border-radius: 30px;
+    border: 1px solid #CDCDCD;
+    background-color: #FFFFFF;
+    height: auto;
+    font-weight: 400;
+    font-size: 10pt;
+    box-sizing: border-box;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+}
+
+.PageContent {
+    /* max-width: 1080px; */
+    width: 100%;
+    display: flex;
+}
+
+.Toastify__close-button {
+    position: relative;
+    top: 14px;
+}
+
+.Toastify__toast-body>div:nth-child(2) {
+    font-size: 11pt;
+    color: #565656;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .Container {
+        padding-top: 54px;
+        background-color: #FFFFFF;
+    }
+
+    .Header {
+        height: 54px;
+    }
+
+    .HeaderContent {
+        padding: 18px;
+    }
+
+    .PageContent {
+        padding: 0px 0px;
+    }
+
+}

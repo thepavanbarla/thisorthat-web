@@ -1,0 +1,88 @@
+.TryLoading {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: 9;
+}
+
+.TryHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 90px;
+    padding: 5px 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.ColorLogo {
+    width: 120px;
+}
+
+.TryHeaderButton{
+    padding: 10px 14px;
+    border-radius: 30px;
+    border: 0;
+    background-color: #551C53;
+    color: #FBFBFB;
+    height: auto;
+    font-weight: 500;
+    font-size: 10pt;
+    box-sizing: border-box;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.TryContainer {
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.TryPostContainer {
+    display: flex;
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 16%;
+    max-width: 480px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .TryHeader {
+        height: 60px;
+        padding: 5px 16px;
+    }
+
+    .ColorLogo {
+        width: 100px;
+    }
+
+    .TryHeaderButton{
+        padding: 8px 12px;
+    }
+
+    .TryContainer {
+        align-items: flex-end;
+        position: relative;
+    }
+
+    .TryPostContainer {
+        margin-left: 0;
+        position: absolute;
+        bottom: 12px;
+    }
+}

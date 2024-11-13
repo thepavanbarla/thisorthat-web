@@ -1,0 +1,104 @@
+.PostContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 22px;
+    align-items: flex-start;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.PostBar {
+    flex: 5;
+    margin-right: 24px;
+    min-height: 200px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.Sidebar {
+    flex: 3;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 94px;
+    flex-direction: column;
+}
+
+.ToProfile {
+    background: url('../images/cover_placeholder.jpg');
+    background-position: center;
+    background-size: 120% cover;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    top: 94px;
+    padding: 24px 12px 40px;
+    font-size: 11pt;
+    font-weight: 600;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.PromoTitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+.FollowButton {
+    background-color: transparent;
+    color: #0066FF;
+    border: 0;
+    font-size: 11pt;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ToCreate {
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid #EFEFEF;
+    border-radius: 8px;
+    margin-top: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ToCreatePicture {
+    flex: 1;
+    
+}
+
+.ViewSimilar {
+    background-color: rgba(102, 49, 247, 1);
+    color: #FFFFFF;
+    padding: 8px 14px 9px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 10pt;
+    font-weight: 600;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .PostContainer {
+        flex-direction: column;
+        padding: 0px 0px;
+        align-items: stretch;
+    }
+
+    .PostBar {
+        margin-right: 0px;
+    }
+
+    .Sidebar {
+        top: 0px;
+        padding: 0px 16px;
+        margin-bottom: 16px;
+    }
+}

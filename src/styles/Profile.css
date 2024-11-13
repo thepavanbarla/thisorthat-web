@@ -1,0 +1,171 @@
+.ProfileContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 22px;
+    align-items: flex-start;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.ProfileDetails {
+    flex: 3;
+    min-height: 200px;
+    background-color: #EDEDED;
+    border-radius: 8px;
+    border: 1px solid #EFEFEF;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0px 40px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 94px;
+}
+
+.ProfilePicture {
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    border: 1px solid #EFEFEF;
+}
+
+.FullName {
+    font-size: 16pt;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.UserName {
+    margin: 6px 0px 18px;
+    font-size: 10pt;
+    font-weight: 600;
+    color: #EFEFEF;
+    background-color: #565656;
+    padding: 5px 7px 6px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.Bio {
+    margin-bottom: 24px;
+    font-size: 10pt;
+    word-spacing: -0.5pt;
+    display: none;
+}
+
+.UserStats {
+    flex-direction: row;
+    padding: 0px 16px;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    max-width: 400px;
+    align-self: center;
+    margin: 0px auto;
+}
+
+.StatGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.StatValue {
+    font-weight: 700;
+    font-size: 16pt;
+}
+
+.StatLabel {
+    font-weight: 400;
+    font-size: 10pt;
+    color: #676767;
+    margin-top: 2px;
+}
+
+.ProfilePosts {
+    flex: 5;
+    margin-left: 24px;
+    min-height: 200px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.PostsTitle {
+    margin-top: 0px;
+    font-size: 14pt;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+.FollowProfile {
+    background-color: rgba(102, 49, 247, 1);
+    color: #FFFFFF;
+    padding: 8px 24px 9px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 11pt;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 24px;
+    
+}
+
+.LoadMore {
+    background-color: rgba(102, 49, 247, 1);
+    color: #FFFFFF;
+    padding: 8px 14px 9px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 10pt;
+    font-weight: 600;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.ProfileDetailsLoading {
+    margin-bottom: 120px;
+}
+
+.ProfilePostsLoading {
+    margin: 200px auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .ProfileContainer {
+        flex-direction: column;
+        padding: 0px;
+        align-items: stretch;
+    }
+
+    .ProfileDetails {
+        flex: 0;
+        min-height: 10px;
+        position: static;
+        width: 100%;
+        border-radius: 0px;
+        border: 0px;
+        top: 0px;
+        padding: 40px 0px;
+        background-color: #FFFFFF;
+    }
+
+    .ProfilePosts {
+        margin-left: 0px;
+        margin-top: 8px;;
+    }
+
+    .PostsTitle {
+        display: none;
+    }
+
+
+
+}

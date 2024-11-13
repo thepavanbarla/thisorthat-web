@@ -1,0 +1,255 @@
+h1, p {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.HomeContainer {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.HeroContent {
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    padding: 40px 22px;
+    justify-content: space-between;
+    min-height: 720px;
+    align-items: center;
+    column-gap: 100px;
+}
+
+.Hero {
+    width: 100%;
+}
+
+.Hero1 {
+    background-color: #E2F2FF;
+    
+}
+
+.HeroContent1 {
+    flex-direction: row;
+}
+
+.Hero2 {
+    background-color: #FDF3E7;
+}
+
+.HeroContent2 {
+    flex-direction: row-reverse;
+}
+
+.Hero3 {
+    background-color: #E2FFE5;
+}
+
+.HeroContent3 {
+    flex-direction: row;
+}
+
+.Hero4 {
+    background-color: #FBE2FF;
+}
+
+.HeroContent4 {
+    flex-direction: row-reverse;
+}
+
+.HeroDetail {
+    max-width: 480px;
+}
+
+.Brief {
+    text-transform: uppercase;
+    color: #151439;
+    opacity: 0.4;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin: 0px 0px 24px;
+}
+
+.HeroTitle {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    margin: 0px 0px 28px;
+}
+
+.HeroSubTitle {
+    font-size: 24px;
+    font-weight: 400;
+    color: #454545;
+    margin: 0px;
+}
+
+.HeroButtons{
+    flex-direction: row;
+    margin-top: 36px;
+}
+
+.HeroButton {
+    margin-right: 20px;
+    height: 48px;
+}
+
+.HeroGraphic {
+    width: 60%;
+}
+
+.Footer {
+    background-color: #E2F2FF;
+}
+
+.FooterContent {
+    min-height: 120px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    flex-direction: row;
+}
+
+.FooterLogoSpace {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.FooterLogo {
+    width: 160px;
+}
+
+.FooterCopy {
+    color: #676767;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.FooterLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1;
+    align-items: center;
+}
+
+.FooterLink {
+    font-size: 14px;
+    color: #343434;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    width: 120px;
+    text-decoration: none;
+}
+
+.FooterIcons {
+    flex-direction: row;
+}
+
+.FooterAppleIcon {
+    height: 28px;
+    margin-left: 36px;
+    position: relative;
+}
+
+.FooterAndroidIcon {
+    height: 24px;
+    margin-left: 36px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .HeroContent {
+        min-height: 600px;
+    }
+
+    .HeroTitle {
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+
+    .HeroSubTitle {
+        font-size: 18px;
+    }
+
+    .HeroButtons {
+        margin-top: 24px;
+    }
+
+    .HeroButton {
+        height: 40px;
+    }
+
+
+    .HeroGraphic {
+        width: 50%;
+    }
+
+    .FooterContent {
+        flex-direction: column;
+        padding: 20px 0px 36px;
+    }
+
+    .FooterLogo {
+        width: 120px;
+    }
+
+    .FooterLinks {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .FooterLogoSpace {
+        margin: 20px 0px;
+    }
+
+    .FooterLink {
+        margin-bottom: 24px;
+    }
+
+    .FooterAppleIcon {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .HeroContent {
+        flex-direction: column-reverse;
+        min-height: 100px;
+        padding: 40px 0px;
+    }
+
+    .HeroDetail {
+        text-align: center;;
+    }
+
+    .HeroGraphic {
+        width: 85%;
+        margin: auto;
+        margin: 16px 0px;
+    }
+
+    .HeroButton {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .HeroTitle {
+        font-size: 32px;
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+
+    .HeroDetail {
+        padding: 24px 24px;
+    }
+
+}
